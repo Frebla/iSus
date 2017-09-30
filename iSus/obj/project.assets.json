@@ -12533,7 +12533,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Димон\\.nuget\\packages\\": {},
+    "C:\\Users\\Саня\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12542,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\iSus\\iSus\\iSus.csproj",
+      "projectUniqueName": "C:\\Users\\Саня\\iSus\\iSus\\iSus\\iSus.csproj",
       "projectName": "iSus",
-      "projectPath": "D:\\Projects\\iSus\\iSus\\iSus.csproj",
-      "packagesPath": "C:\\Users\\Димон\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\iSus\\iSus\\obj\\",
+      "projectPath": "C:\\Users\\Саня\\iSus\\iSus\\iSus\\iSus.csproj",
+      "packagesPath": "C:\\Users\\Саня\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Саня\\iSus\\iSus\\iSus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Димон\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Саня\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
