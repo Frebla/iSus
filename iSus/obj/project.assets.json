@@ -12542,11 +12542,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Димон\\source\\repos\\iSus\\iSus\\iSus.csproj",
+      "projectUniqueName": "D:\\Projects\\iSus\\iSus\\iSus.csproj",
       "projectName": "iSus",
-      "projectPath": "C:\\Users\\Димон\\source\\repos\\iSus\\iSus\\iSus.csproj",
+      "projectPath": "D:\\Projects\\iSus\\iSus\\iSus.csproj",
       "packagesPath": "C:\\Users\\Димон\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Димон\\source\\repos\\iSus\\iSus\\obj\\",
+      "outputPath": "D:\\Projects\\iSus\\iSus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
