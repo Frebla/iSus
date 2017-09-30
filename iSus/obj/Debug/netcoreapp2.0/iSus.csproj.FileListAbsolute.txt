@@ -9,3 +9,14 @@ C:\Users\Димон\source\repos\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.Assembly
 C:\Users\Димон\source\repos\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfo.cs
 C:\Users\Димон\source\repos\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.dll
 C:\Users\Димон\source\repos\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.pdb
+C:\Users\Саня\iSus\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.deps.json
+C:\Users\Саня\iSus\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.runtimeconfig.json
+C:\Users\Саня\iSus\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.runtimeconfig.dev.json
+C:\Users\Саня\iSus\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.dll
+C:\Users\Саня\iSus\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.pdb
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.csprojResolveAssemblyReference.cache
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.csproj.CoreCompileInputs.cache
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfoInputs.cache
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfo.cs
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.dll
+C:\Users\Саня\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.pdb
