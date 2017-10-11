@@ -236,6 +236,49 @@ data-dd (день), data-mm (месяц), data-text(сообщение, види
     function calendarBig(year) {
         var dayOfPasha = getDay(year);
         var monthOfPasha = getMonth(year);
+        //
+        var dayOfPyat;
+        var monthOfPyat;
+        var counter = 50 - (30 - dayOfPasha);
+        if (counter > 31)
+        {
+            counter -= 31;
+            monthOfPyat = 6;
+            dayOfPyat = counter;
+        }
+        else
+        {
+            monthOfPyat = 5;
+            dayOfPyat = counter;
+        }
+
+        debugger;
+        //
+        var date = new Date(year, monthOfPasha - 1, dayOfPasha);
+        var dayOfPashaString = getWeekDay(date);
+        var dayOfSunday;
+        var monthOfSunday = monthOfPasha; //костыль, надо допилить
+
+        if (dayOfPasha > 7) {
+            switch (dayOfPashaString) {
+                case "Воскресенье": dayOfSunday = dayOfPasha - 7;
+                    break;
+                case "Понедельник": dayOfSunday = dayOfPasha - 1;
+                    break;
+                case "Вторник": dayOfSunday = dayOfPasha - 2;
+                    break;
+                case "Среда": dayOfSunday = dayOfPasha - 3;
+                    break;
+                case "Четверг": dayOfSunday = dayOfPasha - 4;
+                    break;
+                case "Пятница": dayOfSunday = dayOfPasha - 5;
+                    break;
+                case "Суббота": dayOfSunday = dayOfPasha - 6;
+                    break;
+            }
+        }
+
+    //конец костыля
         for (var m = 0; m <= 11; m++) {
             var D = new Date(year, [m], 1),
                 Dlast = new Date(D.getFullYear(), D.getMonth() + 1, 0).getDate(),
@@ -310,9 +353,17 @@ data-dd (день), data-mm (месяц), data-text(сообщение, види
                         }
                     }
                     if (myD[i].innerHTML == dayOfPasha && myD[i].parentNode.parentNode.parentNode.dataset.m == monthOfPasha - 1) {
-                        debugger;
                         myD[i].title = "Пасха";
                     }
+
+                    if (myD[i].innerHTML == dayOfSunday && myD[i].parentNode.parentNode.parentNode.dataset.m == monthOfSunday - 1) {
+                        myD[i].title = "Вербное Воскресенье";
+                    }
+
+                    if (myD[i].innerHTML == dayOfPyat-1 && myD[i].parentNode.parentNode.parentNode.dataset.m == monthOfPyat - 1) {
+                        myD[i].title = "Пятидесятница";
+                    }
+
                 }
             }
         }
@@ -323,6 +374,13 @@ data-dd (день), data-mm (месяц), data-text(сообщение, види
     document.querySelector('#calendarBig > thead td:nth-child(3)').onclick = calendarBigG;
     function calendarBigG() {
         calendarBig(this.innerHTML.replace(/[^\d]/gi, ''));
+    }
+
+    function getWeekDay(date) {
+        date = date || new Date();
+        var days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+        var day = date.getDay();
+        return days[day];
     }
 
 </script>

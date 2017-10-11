@@ -31,3 +31,14 @@ C:\Users\user\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfoInputs.cac
 C:\Users\user\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfo.cs
 C:\Users\user\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.dll
 C:\Users\user\iSus\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.pdb
+D:\Projects\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.deps.json
+D:\Projects\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.runtimeconfig.json
+D:\Projects\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.runtimeconfig.dev.json
+D:\Projects\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.dll
+D:\Projects\iSus\iSus\bin\Debug\netcoreapp2.0\iSus.pdb
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.csprojResolveAssemblyReference.cache
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.csproj.CoreCompileInputs.cache
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfoInputs.cache
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.AssemblyInfo.cs
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.dll
+D:\Projects\iSus\iSus\obj\Debug\netcoreapp2.0\iSus.pdb
